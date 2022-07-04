@@ -30,7 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
   iwaju_utils:
-    path: E:\SOURCE_CODE\iwaju-utils\iwaju_utils
+    path: E:\SOURCE_CODE\iwaju-utils
 
 
   # The following adds the Cupertino Icons font to your application.

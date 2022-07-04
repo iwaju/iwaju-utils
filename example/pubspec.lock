@@ -77,7 +77,7 @@ packages:
   iwaju_utils:
     dependency: "direct main"
     description:
-      path: "E:\\SOURCE_CODE\\iwaju-utils\\iwaju_utils"
+      path: "E:\\SOURCE_CODE\\iwaju-utils"
       relative: false
     source: path
     version: "0.0.1"
