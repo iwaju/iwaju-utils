@@ -15,25 +15,23 @@ This package contains utilities methods
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package contains methods for converting date to string, string to dates, random methods to get list of data for listview when prototyping
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Use the class Utils with static methods like convertDateToStr, 
+convertStrToDate and getRandomListViewData
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
 
 ```dart
-const like = 'sample';
+const String dateConverted = Utils.convertDateToStr(dateObject);
+const Date dateParsed = Utils.convertStrToDate(stringLikeDate);
+const List<Proverb> dataList = Utils.getRandomListViewdata(();
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+The method getRandomListViewdata will return random list of proverbs, in a form of list of type Proverb  
 "iwaju_utils"
