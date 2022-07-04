@@ -1,16 +1,37 @@
-# example
+<!-- 
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
 
-A new Flutter project.
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
 
-## Getting Started
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/guides/libraries/create-library-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/developing-packages). 
+-->
 
-This project is a starting point for a Flutter application.
+This package contains utilities methods
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This package contains methods for converting date to string, string to dates, random methods to get list of data for listview when prototyping
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting started
+
+Use the class Utils with static methods like convertDateToStr, 
+convertStrToDate and getRandomListViewData
+
+## Usage
+
+
+```dart
+const String dateConverted = Utils.convertDateToStr(dateObject);
+const Date dateParsed = Utils.convertStrToDate(stringLikeDate);
+const List<Proverb> dataList = Utils.getRandomListViewdata(();
+```
+
+## Additional information
+
+The method getRandomListViewdata will return random list of proverbs, in a form of list of type Proverb  
+"iwaju_utils"
