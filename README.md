@@ -22,8 +22,8 @@ This package contains methods for converting date to string, string to dates, ra
 Use the class Utils with static methods like convertDateToStr, 
 convertStrToDate and getRandomListViewData
 
-## Usage
 
+## Usage
 
 ```dart
 const String dateConverted = Utils.convertDateToStr(dateObject);
